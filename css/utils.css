@@ -1,0 +1,77 @@
+:root{
+    --main-bg-color:blue;
+    --font-1:'Roboto';
+    --font-2:monospace;
+}
+
+.center{
+    text-align: center;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 70vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+/*x,y refers to directions in a graph */
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.font-1{
+    font-family: var(--font-1);
+}
+
+.font-2{
+    font-family: var(--font-2);
+}
+
+.btn{
+    padding: 4px 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-weight: 400;
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font-1);
+}
+
+.form-box input,textarea{
+    width: 60vw;
+    padding:10px 6px;
+    margin: 7px 0;
+    font-size: 15px;
+    font-family: var(--font-1);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.form-box button{
+    width: 150px;
+    height: 30px;
+}
