@@ -3,9 +3,10 @@
     overflow: hidden;
 }
 
-.post-img .img{
+.post-img img{
     width:100%;
-    height: 350px;
+    height: 100%;
+    object-fit: cover;
     border: 1px solid black;
     background-color: rgb(238, 229, 229);
 }
